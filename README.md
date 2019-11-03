@@ -80,12 +80,19 @@ ___
 ### Validations
 
 The decorator processor validates the usage of the annotation and raises errors on violating the use of the annotation
+
 - have a non zero length name
+
 - have an implementing type
+
 - have the decorator description
+
 - must be applied to a class
+
 - cannot be applied to static classes
+
 - usage class should have public modifier
+
 - should not be implementing or extending any other class
 
 Violated errors : uncomment the _invalidUsage_ package under the usage module to have a invalid run.
