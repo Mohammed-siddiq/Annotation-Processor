@@ -60,11 +60,12 @@ The following is sample usage:
 )
 ```
 
-##Steps to run
+##
+Steps to run
 
 - Clone this repo :
 ```
-git clone <REPO GIT URL>
+git clone https://Iam_MohammedSiddiq@bitbucket.org/Iam_MohammedSiddiq/mohammed_siddiq_474_hw2.git
 ```
 ```
 mvn clean compile test
