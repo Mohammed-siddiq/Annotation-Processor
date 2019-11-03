@@ -3,11 +3,14 @@
 This project contains the validation and implementation of decorator pattern using annotation.
 
 It is multi-module project where :
+
 - **annotation module** defines the decorator annotation, which can be used to annotate classes to be used as decorators.
+
 - **processor module** implements the annotation processor for the decorator. The processor
     - Validates the annotated classes/entities
     - Raises errors/warnings (based on the given config) upon violating the decorators usage
     - Generates classes corresponding to the annotated classes as decorators.
+    
     
 - **usage module** implements the decorator pattern for a simple use case of decorating a christmas tree with and
 without annotations. Demonstrating the equivalence of pattern usage with annotations.
